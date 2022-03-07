@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour
     public int playerSpeed = 10;
     public int playerJumpPower = 1250;
     private float moveX;
+    private float moveY;
     public bool isGrounded;
     public float distanceToBottomOffPlayer = 1.8f;
 
@@ -23,13 +24,32 @@ public class PlayerMovement : MonoBehaviour
         PlayerRaycast();
 
 
+       
 
+        if (GetComponent<Rigidbody2D>().velocity.y < -5.0f)
+        {
+            isGrounded = false;
+        }
+        
     }
 
     void PlayerMove()
     {
         //CONTROLS
+        
         moveX = Input.GetAxis("Horizontal");
+        transform.Rotate(new Vector3(0, 0, -(Input.GetAxis("Horizontal") * 1000 * Time.deltaTime)));
+
+
+        if (GetComponent<Rigidbody2D>().angularVelocity > 50)
+        {
+            GetComponent<Rigidbody2D>().angularVelocity = 50;
+        }
+        if (GetComponent<Rigidbody2D>().angularVelocity < -50)
+        {
+            GetComponent<Rigidbody2D>().angularVelocity = -50;
+        }
+
         if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
             Jump();
@@ -46,6 +66,8 @@ public class PlayerMovement : MonoBehaviour
 
         }
         //PHYSICS
+
+        
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(moveX * playerSpeed, gameObject.GetComponent<Rigidbody2D>().velocity.y);
     }
 
