@@ -1,0 +1,2106 @@
+fileFormatVersion: 2
+guid: 3be62ec4576a542038f70b190f154626
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CyberSpaceLava_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -17.5, y: -86}
+        - {x: -17.5, y: -25}
+        - {x: 17.5, y: -25}
+        - {x: 17.5, y: -86}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6181b4fcecc14863bb611e61a994bca
+      internalID: 1160440492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a2424c4a95f446039b48686b1d55c1c
+      internalID: 578360766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd17a4b89d06438db25f9399f699c8c
+      internalID: -623296504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_3
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da8194df0290049dba366857fb8b13bf
+      internalID: -208751655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_4
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fb290c42a86148ee9af8bda1a6b82db
+      internalID: 1442183682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_5
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2c2d67193fc438982488ef87ff0250
+      internalID: -337007342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_6
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c21fc5da834e4d98ba4f89f8eda5788
+      internalID: 1545362546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_7
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50068b7afd15e42dbabf4ab3f3511125
+      internalID: 1678468598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_8
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e79a1ef00a2416ab72d63b11a046a1
+      internalID: 449716176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_9
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7342621cdf6184f6e86cf5274e26324f
+      internalID: -634487532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_10
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15df400cc8600432392445dcbffc707c
+      internalID: 1862060173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_11
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53cb9f923c4b5442bad1802cc1d809bb
+      internalID: 363847153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_12
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786616c41964342f4abbc4027771544e
+      internalID: -487566631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_13
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca069eb498cb4fff8fb360ecaff8527
+      internalID: -1333884835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_14
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84a30a09db12f4095a817949069d89f8
+      internalID: -990268988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_15
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1b0019d5c8e54a22a2d69b4c91324f1
+      internalID: 1054124618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_16
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9cd2800592a042e699ab5ec02a1c30b
+      internalID: -1968677660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_17
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bf9f98a30d1e43f8beaa159724c0996
+      internalID: 1813171553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_18
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10211ec02ae344b886eb6f3fea6d40d
+      internalID: 1371118763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_19
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c10ae109c9ab24c7b8f3b877acbfceb8
+      internalID: 1569860661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_20
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 820116fdbbc4e45a587d677c8f323f7f
+      internalID: -1548660718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_21
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9ff8590d13546649c8d5b5e9015cd1
+      internalID: 30217568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_22
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32649420c49a41479d3c0f890eec07d
+      internalID: 1908932553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_23
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dbf583389ca44ead8b4d96cf35dc9ea
+      internalID: -1752213273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_24
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9077766c3dfce4796ac34f4213a3b4b9
+      internalID: 866127513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_25
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dc66a16418f1402492f5beb9299f740
+      internalID: -1695033276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_26
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d5588444f6c942bc8f85946392c0d44
+      internalID: -1963347925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_27
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3fd73f2b812645da88197fb718029c2
+      internalID: -1944904460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_28
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506f796eadbf240b4801dba5c09ee9c2
+      internalID: -1800287981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_29
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb639563c860433ca119ff98aaf3931
+      internalID: -298600975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_30
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 452
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a13ac45da5714cd887dcca9b79f7529
+      internalID: -1710805544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6ba8b79fb3548d7aee05ea76df9f56
+      internalID: -561341314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_32
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf2ccd663b54e402c9630c02350c9c51
+      internalID: 1422779248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_33
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502001984a6bb4ad4b262d3b0c1fee2b
+      internalID: 1885270097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_34
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d12d4643ef1418a979d91cb2b15e62
+      internalID: -1337558755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_35
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6adcf812b032b4e478e121fcda6c55ec
+      internalID: 1276607299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_36
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0292b42eaa91d4992985c12011db8a31
+      internalID: -1109116991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_37
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003b5349c7f7341a2b6929ba7e4db8af
+      internalID: 614783745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_38
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e2506e71ec14d29adc8665d299fe70
+      internalID: 937196715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_39
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b82cd9268304cc4bce2fa3129fd8b8
+      internalID: 1564783146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_40
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e90a05d7168e4f48a75f4e855365c9e
+      internalID: 1919970823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_41
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4afddf27384ad4441a630c28ccb25b20
+      internalID: 1479871118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_42
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3da0ecf458ac4447b60674d5bcc2b06
+      internalID: -1949799511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_43
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5c63e04d2354b36a12785c34470be2
+      internalID: -1428771002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_44
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbe7d510f6e143b5a76446ac3a169b3
+      internalID: 1128296403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_45
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 540bb743864d84c1a8c567e5645d7793
+      internalID: 1372531989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_46
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f7efdbe383594ff59bba955c2f5529c
+      internalID: -971487376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_47
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8082a6398fd9f4d58a27c2d1efa95996
+      internalID: 118879334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_48
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1d7c7ceb1fc4213a5c85afc9b1f69a
+      internalID: 1090400228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_49
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d4b27d85b3343cba69d30a59f650f1
+      internalID: 532466036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_50
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c254ae0e2a60d423a88b2ea9e6aa5efd
+      internalID: -696760462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_51
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3bcd93b49dd74a6bad089403195c6a6
+      internalID: -1530615927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_52
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56815f726e75b43828d61e6890bfc846
+      internalID: 1596882508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_53
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73767efdb557644baaefbaaee0b8f969
+      internalID: 613110588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_54
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 210e132dd6c5e491cb69bbb871aeed5f
+      internalID: 107844140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_55
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab48feb45868d49a6b2b41f96b266e23
+      internalID: 62023343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_56
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964a89b0a499349e08f89036110b91a4
+      internalID: -435549338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_57
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a76b3c977f644ced850d5fdd5b9ca32
+      internalID: -754698880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_58
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cbe8333f80564eafadf94f28e5f0d73
+      internalID: -373532263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_59
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fdb0b5272914d70bc53cc2a328a716
+      internalID: 1692898302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_60
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 280
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfbfcce63d29348dc841a4d0b22f6935
+      internalID: -1528247368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_61
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df222460a8ad34a89b52cb2db8cf34c5
+      internalID: -542764355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_62
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1559da0d84924a76a3c8ac7e91c06e3
+      internalID: -1332761461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_63
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee37813b4903b49f49f15b3c32fc9630
+      internalID: -2018593643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_64
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedf320b9260d4f0ea8a4fab4505ce3a
+      internalID: -1519338910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_65
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c6a144691514848a7c8e9f28ae1299
+      internalID: 349637308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_66
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc14f35b57b64ce9b5ff69c083ec397
+      internalID: -1546919418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_67
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bca6ff9347e14b589fb2b97054ff6f6
+      internalID: 641332759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_68
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cebf82ff108145c181c89fe2a448724
+      internalID: 1660009209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_69
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1698cfce456a47e19b1e9e3c616939b
+      internalID: 1935757193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_70
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d36e0f7b624847d8871513afdc985be
+      internalID: -1117856969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_71
+      rect:
+        serializedVersion: 2
+        x: 452
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e070aa076087a41c3a67834303c8a4c6
+      internalID: 1720400519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_72
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41cdbeb01516454b8cd79463b0a9ca0
+      internalID: 944366034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_73
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5fa78e92738048019d06ffb660d3b7d
+      internalID: 110968096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_74
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d0289d92f5514d17828dc56b354b94c
+      internalID: -262248710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_75
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc65ea5d4c81462d999a1c7dc20c07c
+      internalID: 2092195235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_76
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 977903e21cc254e80afcae90eb224135
+      internalID: -1449188454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_77
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 250934ebdeace4860a48e78e830f3e6a
+      internalID: 33974343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_78
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f085e335a13864d3286b9e52547cd676
+      internalID: 1829234206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_79
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cd4a32b480748bc8e269700bb5dd87
+      internalID: -211002947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_80
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e161b380595cd4a7d9ae8bc9d4270fd1
+      internalID: -1191972689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_81
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 444c0cbbd074944a2b0c3e1b335f1c58
+      internalID: -1878591080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_82
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d58a55c9fc44b84bdf9f0a2da606c2
+      internalID: 253002871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_83
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d980801dcf94c4c79b0cd0ceecc8cd40
+      internalID: 1577784406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_84
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310b6ac07904b47af8f6d343e8aa612b
+      internalID: 2082540333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_85
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 987955c144f0f48b3971a81a0efdde8d
+      internalID: -1052771978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_86
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e898f3a90a84410f9d7e63bc3ff1f7d
+      internalID: -87901186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_87
+      rect:
+        serializedVersion: 2
+        x: 1012
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be566ef640d714c52bb46f36792b0cf1
+      internalID: 765240494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_88
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43fde83a927d34fc0a07d3357ff08197
+      internalID: -1960571902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CyberSpaceLava_89
+      rect:
+        serializedVersion: 2
+        x: 1082
+        y: 108
+        width: 35
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9f474438dda43fd8e7f05e8def992b
+      internalID: -1129501745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CyberSpaceLava_21: 30217568
+      CyberSpaceLava_0: 1160440492
+      CyberSpaceLava_13: -1333884835
+      CyberSpaceLava_47: 118879334
+      CyberSpaceLava_73: 110968096
+      CyberSpaceLava_75: 2092195235
+      CyberSpaceLava_89: -1129501745
+      CyberSpaceLava_42: -1949799511
+      CyberSpaceLava_40: 1919970823
+      CyberSpaceLava_70: -1117856969
+      CyberSpaceLava_7: 1678468598
+      CyberSpaceLava_35: 1276607299
+      CyberSpaceLava_83: 1577784406
+      CyberSpaceLava_19: 1569860661
+      CyberSpaceLava_29: -298600975
+      CyberSpaceLava_30: -1710805544
+      CyberSpaceLava_59: 1692898302
+      CyberSpaceLava_46: -971487376
+      CyberSpaceLava_48: 1090400228
+      CyberSpaceLava_55: 62023343
+      CyberSpaceLava_65: 349637308
+      CyberSpaceLava_62: -1332761461
+      CyberSpaceLava_26: -1963347925
+      CyberSpaceLava_71: 1720400519
+      CyberSpaceLava_2: -623296504
+      CyberSpaceLava_67: 641332759
+      CyberSpaceLava_36: -1109116991
+      CyberSpaceLava_41: 1479871118
+      CyberSpaceLava_68: 1660009209
+      CyberSpaceLava_64: -1519338910
+      CyberSpaceLava_31: -561341314
+      CyberSpaceLava_57: -754698880
+      CyberSpaceLava_80: -1191972689
+      CyberSpaceLava_39: 1564783146
+      CyberSpaceLava_54: 107844140
+      CyberSpaceLava_53: 613110588
+      CyberSpaceLava_3: -208751655
+      CyberSpaceLava_9: -634487532
+      CyberSpaceLava_87: 765240494
+      CyberSpaceLava_78: 1829234206
+      CyberSpaceLava_56: -435549338
+      CyberSpaceLava_8: 449716176
+      CyberSpaceLava_44: 1128296403
+      CyberSpaceLava_25: -1695033276
+      CyberSpaceLava_69: 1935757193
+      CyberSpaceLava_6: 1545362546
+      CyberSpaceLava_16: -1968677660
+      CyberSpaceLava_85: -1052771978
+      CyberSpaceLava_18: 1371118763
+      CyberSpaceLava_32: 1422779248
+      CyberSpaceLava_23: -1752213273
+      CyberSpaceLava_50: -696760462
+      CyberSpaceLava_66: -1546919418
+      CyberSpaceLava_77: 33974343
+      CyberSpaceLava_22: 1908932553
+      CyberSpaceLava_37: 614783745
+      CyberSpaceLava_5: -337007342
+      CyberSpaceLava_34: -1337558755
+      CyberSpaceLava_45: 1372531989
+      CyberSpaceLava_49: 532466036
+      CyberSpaceLava_14: -990268988
+      CyberSpaceLava_24: 866127513
+      CyberSpaceLava_76: -1449188454
+      CyberSpaceLava_51: -1530615927
+      CyberSpaceLava_88: -1960571902
+      CyberSpaceLava_84: 2082540333
+      CyberSpaceLava_52: 1596882508
+      CyberSpaceLava_43: -1428771002
+      CyberSpaceLava_33: 1885270097
+      CyberSpaceLava_58: -373532263
+      CyberSpaceLava_74: -262248710
+      CyberSpaceLava_81: -1878591080
+      CyberSpaceLava_72: 944366034
+      CyberSpaceLava_79: -211002947
+      CyberSpaceLava_82: 253002871
+      CyberSpaceLava_15: 1054124618
+      CyberSpaceLava_38: 937196715
+      CyberSpaceLava_1: 578360766
+      CyberSpaceLava_4: 1442183682
+      CyberSpaceLava_11: 363847153
+      CyberSpaceLava_60: -1528247368
+      CyberSpaceLava_20: -1548660718
+      CyberSpaceLava_27: -1944904460
+      CyberSpaceLava_61: -542764355
+      CyberSpaceLava_12: -487566631
+      CyberSpaceLava_10: 1862060173
+      CyberSpaceLava_63: -2018593643
+      CyberSpaceLava_28: -1800287981
+      CyberSpaceLava_86: -87901186
+      CyberSpaceLava_17: 1813171553
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

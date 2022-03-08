@@ -1,31 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
     public int playerSpeed = 10;
-    public int playerJumpPower = 1250;
+    public int playerJumpPower;
     private float moveX;
-    private float moveY;
     public bool isGrounded;
-    public float distanceToBottomOffPlayer = 1.8f;
-
-
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
     {
         PlayerMove();
-        PlayerRaycast();
 
 
        
-
+        //if the player is falling set grounded to false
         if (GetComponent<Rigidbody2D>().velocity.y < -5.0f)
         {
             isGrounded = false;
@@ -36,11 +28,15 @@ public class PlayerMovement : MonoBehaviour
     void PlayerMove()
     {
         //CONTROLS
-        
+
+        //Gets unity built in Axis, Axis comes with Controller, WASD, and Arrow key movement support
         moveX = Input.GetAxis("Horizontal");
+
+        //This spins the square in the direction of movement
         transform.Rotate(new Vector3(0, 0, -(Input.GetAxis("Horizontal") * 1000 * Time.deltaTime)));
 
 
+        //All this here caps the amount the player can spin so it doesn't freak out
         if (GetComponent<Rigidbody2D>().angularVelocity > 50)
         {
             GetComponent<Rigidbody2D>().angularVelocity = 50;
@@ -50,30 +46,19 @@ public class PlayerMovement : MonoBehaviour
             GetComponent<Rigidbody2D>().angularVelocity = -50;
         }
 
+        //"Jump" is spacebar
         if (Input.GetButtonDown("Jump") && isGrounded == true)
         {
             Jump();
         }
 
-        //PLAYER DIRECTION
-        if (moveX < 0.0f)
-        {
-            GetComponent<SpriteRenderer>().flipX = true;
-        }
-        if (moveX > 0.0f)
-        {
-            GetComponent<SpriteRenderer>().flipX = false;
-
-        }
-        //PHYSICS
-
-        
+        //PHYSICS, Constantly update the left right movements with move speed and the current moveX
         gameObject.GetComponent<Rigidbody2D>().velocity = new Vector2(moveX * playerSpeed, gameObject.GetComponent<Rigidbody2D>().velocity.y);
     }
 
     void Jump()
     {
-        //JUMPING CODE
+        //Jump code adds force upwards when jumping and sets grounded to false
         GetComponent<Rigidbody2D>().AddForce(Vector2.up * playerJumpPower);
         isGrounded = false;
     }
@@ -81,25 +66,29 @@ public class PlayerMovement : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D col)
     {
+        //Touching the floor
         if (col.gameObject.tag == "ground")
         {
             isGrounded = true;
         }
+        //PLayer hits an enemy and resets the scene
+        if (col.gameObject.tag == "Enemy")
+        {
+            SceneManager.LoadScene("SampleScene");
+
+        }
+
     }
 
 
     void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.gameObject.tag == "coin")
+        //If the player falls into the pit it also resets the scene
+        if (col.gameObject.tag == "killzone")
         {
-            gameObject.GetComponent<AudioSource>().Play();
-        }
-        
+            SceneManager.LoadScene("SampleScene");
         }
 
-        void PlayerRaycast()
-        {
-            RaycastHit2D hit = Physics2D.Raycast(transform.position, Vector2.down);
-        }
     }
+}
 

@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - ground
+  - Bullet
+  - killzone
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -41,4 +44,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: ForeGround
+    uniqueID: 3814800099
+    locked: 0
+  - name: BackGround
+    uniqueID: 2730654231
     locked: 0

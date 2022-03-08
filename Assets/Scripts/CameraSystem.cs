@@ -10,17 +10,17 @@ public class CameraSystem : MonoBehaviour
     public float yMin;
     public float yMax;
 
-    // Use this for initialization
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
     }
 
-    // Update is called once per frame
+    //Camera will track the player and will stop moving at bounds that can be set
     void LateUpdate()
     {
         float x = Mathf.Clamp(player.transform.position.x, xMin, xMax);
-        float y = Mathf.Clamp(player.transform.position.y + 4.5f, yMin, yMax);
+        float y = Mathf.Clamp(player.transform.position.y, yMin, yMax);
         gameObject.transform.position = new Vector3(x, y, gameObject.transform.position.z);
     }
 }
